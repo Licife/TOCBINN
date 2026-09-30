@@ -1,7 +1,7 @@
 # Super parameters
 clamp = 2.0
 channels_in = 3
-log10_lr = -5
+log10_lr = -3.5
 lr = 10 ** log10_lr
 epochs = 1000
 weight_decay = 1e-5
@@ -117,5 +117,3 @@ MODEL_PATH_4 = 'model4/'
 MODEL_PATH_5 = 'model5/'
 checkpoint_on_error = True
 SAVE_freq = 50
-
-
